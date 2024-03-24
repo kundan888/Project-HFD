@@ -16,7 +16,7 @@ st.title('HUMAN FRACTURE DETECTION')
 st.write('Choose detection method:')
 
 # Choose detection method
-option = st.selectbox('Select detection method', ('Image Upload'))
+option = st.selectbox('Select detection method', ('Image Upload','NONE'))
 
 if option == 'Image Upload':
     # Upload image through Streamlit
